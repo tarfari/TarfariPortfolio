@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #F1F1F1;
+    color:#7c1111;
+}
+
+header{
+    margin-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%
+    padding 1rem 9%;
+    background-color: transparent;
+    filter: drop-shadow(10px); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 3rem;
+    color:#7c1111;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s ease;
+    margin-left: 2rem;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+nav a{
+    font-size: 1.8rem;
+    color:rgb(0, 0, 0);
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover,
+nav a.experience{
+    color: #7c1111;
+    border-bottom: 3px solid #7c1111;
+}
+/* edit later (for mobile nav bar */
+@media(max-width:995px){
+    nav{
+       position:absolute;
+       top: 100%;
+       border: #000000;
+       border-top-left-radius: 2rem;
+       padding: 1rem solid;
+       background-color: rgba(0, 0, 0, 0.151);
+       border-top: 0.1rem solid rgba(0,0,0,0.1); 
+    }
+   
+    nav.active{
+       display:block;
+    }
+   
+    nav a{
+       display:block;
+       font-size: 2rem;
+       margin: 0.2rem 0.2rem;
+    }
+   
+    nav a:hover,
+    nav a.active{
+       padding: 1rem;
+       border-radius: 0.5rem;
+       border-bottom: 0.5rem solid #7c1111;
+    }
+}
+
+
+
+section{
+    min-height: 100vh;
+    padding: 5rem 9% 5rem;
+}
+
+
+.Experience-content {
+    margin-top: 90px;
+    font-size: 2rem;
+    text-align: left;
+}
+
+
+.Skills {
+    margin-top: 90px;
+    font-size: 2.4rem;
+    text-align: left;
+    font-style: normal;
+ 
+}
+
+.Skills-body {
+    margin-top: 9px;
+    font-size: 2rem;
+    text-align: left;
+ 
+}
+
+.Fun-Facts-about-me {
+    margin-top: 9px;
+    font-size: 2rem;
+    text-align: left;
+
+}
+
+
+.Experience-top {
+    margin-top: 9px;
+    font-size: 2rem;
+    font-style: italic;
+    transition: ease;
+    text-align: left;
+}
+
+.Experience-body {
+    margin-top: 45px;
+    font-size: 2.4rem;
+    text-align: left;
+    font-style: normal;
+}
+
+.Fun-Facts {
+    margin-top: 9px;
+    font-size: 3rem;
+    text-align: left;
+
+}
+
+.idk {
+    color: #7c1111;
+    font-weight: 1000;
+}
+
+.here {
+    color: #7c1111;
+    font-weight: 1000;
+    font-style: italic;
+}
+
+.Experience-top a:hover{
+    color: rgb(99, 99, 99);
+    transform: scale(1.3)traslateY(-5px);
+    transition: .90s ease-in-out;
+}
+
+.RCA{
+    margin-top: 7px;
+    font-size: 2rem;
+    width: 1200px;
+}
+
+.lifeguard{
+    margin-top: 7px;
+    font-size: 2rem;
+    width: 1200px;
+}
+
+.production{
+    margin-top: 7px;
+    font-size: 2rem;
+    width: 1200px;
+}
+
+.heyy{
+    font-size: 2.6rem;
+    font-weight: 500;
+}
+
+.tutortop{
+    font-size: 2.6rem;
+    font-weight: 500;
+}
+
+.tutordesc{
+    margin-top: 7px;
+    font-size: 2rem;
+    width: 1200px;
+}
+
+.edit {
+    color: #7c1111;
+    font-weight: 1000;
+    font-style: italic;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="projects.js"></script>
+    <link rel="stylesheet" href="projects.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+  <header>
+    <a href="http://127.0.0.1:5500/index.html/index.html#" class="logo">Tarfari</a>
+
+    <nav>
+        <a href="http://127.0.0.1:5500/index.html/index.html#" class="active"> Home</a> 
+        <a href="http://127.0.0.1:5500/pages/contact.html#" class="contact"> contact</a> 
+        <a href="http://127.0.0.1:5500/pages/Experience.html#" > experience</a> 
+        <a href="http://127.0.0.1:5500/pages/projects.html#" class="project" > projects</a> 
+
+    </nav>
+  </header>
+
+  <div class="photo-gallery">
+    <div class="pic website">
+      <button onclick="togglePopup()"><img src="https://i.ibb.co/W5RWrch/Screenshot-2024-12-24-194906.png" alt="Button Image"></button>
+    </div>
+  
+    <div class="popup" id="popup-1">
+      <div class="overlay"></div>
+      <div class="content">
+        <div class="close-btn" onclick="togglePopup()">&times;</div>
+      <div class="header">
+        <h1 style="font-size:50px;">This Website</h1></div>
+        <div class="tldr">
+          <p style="font-size:25px;"></style> <br>TL:DR:</p>
+        </div>
+        <div class="popup-top">
+        <p style="font-size:20px;">This portfolio website built from scratch using HTML, CSS, and JS!!<br><br></p> 
+      </div>
+        <div class="Extended-Description">
+          <p style="font-size:25px;"></style>  Extended Description:</p>
+        </div>
+        <div class="popup-body">
+        <p style="font-size:20px;">I started learning about HTML & CSS during the spring of 2024 while taking a AP CSP course. 
+          Eventually (during the summer of 2024) I started to play around with these langanuges more and decided to pursue making
+          my own portfolio website after being inspired seeing a former classmate do something similar. I offically started this 
+          project in October of 2024. This entire project has been a learning experience for me since I intially planned for it to
+          be complete simple, just bare bones basic HTML & CSS. But this project has become bigger than what I imagined with every feature
+          being added more and more until it seems fit.</p> 
+      </div>
+    </div>
+  </div>
+
